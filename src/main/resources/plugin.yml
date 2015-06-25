@@ -1,0 +1,11 @@
+name: ${project.name}
+version: ${project.version}
+main: ${project.groupId}.${project.artifactId}.${project.name}
+description: |
+    ${project.description}
+commands:
+  clearchat:
+     description: Clears your server's chat
+     aliases: [clear, cc]
+     permission: sclearchat.clear
+     usage: /<command>
